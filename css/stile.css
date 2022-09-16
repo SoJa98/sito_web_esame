@@ -1,0 +1,12 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.sfondoheader {
+	background-color: rgba(230, 119, 84, 0.81);
+}
+.sfondodida {
+	background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */;
+}
+.sfondofooter {
+	background-color: rgba(230, 119, 85, 0.6);
+}
