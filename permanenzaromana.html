@@ -3,13 +3,25 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="DC.Title" content="Caravaggio. Una raccolta delle sue opere e della relativa letteratura critica">
+    <meta name="DC.Creator" content="Sofia Janin">
+    <meta name="DC.Subject" content="raccolta digitale">
+    <meta name="DC.Description" content="Raccolta navigabile delle immagini digitalizzate e dei testi storico-critici delle opere dell'artista italiano Caravaggio">
+    <meta name="DC.Publisher" content="Università di Bologna, CRR-MM (Centro di Risorse per la Ricerca - Multimediale)">
+    <meta name="DC.Date" content="17/09/2022">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Format" content="HTML/CSS/JS">
+    <link rel="DC.Identifier" href="https://soja98.github.io/sito_web_esame/">
+    <meta name="DC.Language" content="it">
+    <link rel="DC.Coverage" content="Italy, university center, Bologna" href="http://vocab.getty.edu/page/tgn/7004847">
+    <meta name="DC.Rights" content="Creative Commons license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/stile.css">
 	<title>Progetto Digital</title>
 </head>
 <body>
-	<header class="container-fluid p-5 text-dark sfondoheader">
-		<h1 class="text-center">Caravaggio</h1>
+	<header class="container-fluid p-4 text-dark sfondoheader">
+		<h1 class="text-center text-uppercase">Caravaggio</h1>
 		<p class="text-center">Una raccolta delle sue opere e della relativa letteratura critica</p>
 	</header>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -17,91 +29,196 @@
 			<a class="navbar-brand" href="index.html"> Home
 				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
 					<path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/></svg> 
-				</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-						<li class="nav-item">
-							<a class="nav-link active" href="#">Introduzione</a>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Introduzione</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Esplora il catalogo
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="immagini_digitalizzate.html">Immagini digitalizzate</a></li>
+							<li><a class="dropdown-item" href="letteratura_critica.html">Letteratura critica</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form class="d-flex">
+					<input class="form-control me-2" type="text" aria-label="Search">
+					<button class="btn btn-outline-dark" type="submit">Cerca</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+	<div>
+		<h2 class="text-uppercase py-3 ps-3">La permanenza romana</h2>
+	</div>
+	<section>
+		<div class="table-responsive">
+			<table class="table table-bordered">
+			<thead>
+			    <tr>
+					<th></th>
+			        <th>Titolo</th>
+			        <th>Anno</th>
+			        <th>Collocazione</th>
+			        <th>Vai alla pagina dell'item</th>
+			    </tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+			          	<img src="img/Fanciullo_con_canestro_di_frutta_mini.jpg" class="rounded mx-auto d-block" alt="Fanciullo con canestra di frutta">
+					</td>
+					<td><em>Fanciullo con canestra di frutta</em></td>
+					<td>1593/1595</td>
+					<td>Roma, Galleria Borghese</td>
+					<td>
+						<a href="#">Scheda opera</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="img/Canestra_di_frutta_mini.jpg" class="rounded mx-auto d-block" alt="Canestra di frutta">
+					</td>
+					<td><em>Canestra di Frutta</em></td>
+					<td>1596 ca.</td>
+					<td>Milano, Pinacoteca Ambrosiana</td>
+					<td>
+						<a href="#" >Scheda opera</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="img/Riposo_durante_la_fuga_in_Egitto_mini.jpg" class="rounded mx-auto d-block" alt="Riposo durante la fuga in Egitto">
+					</td>
+					<td><em>Riposo durante la fuga in Egitto</em></td>
+					<td>1596/1597 ca.</td>
+					<td>Roma, Galleria Doria Pamphilj</td>
+					<td>
+						<a href="#" >Scheda opera</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="img/Giuditta_e_Oloferne_mini.jpg" class="rounded mx-auto d-block" alt="Giuditta e Oloferne">
+					</td>
+					<td><em>Giuditta e Oloferne</em></td>
+					<td>1598/1599 ca</td>
+					<td>Roma, Palazzo Barberini, Galleria nazionale d'arte antica</td>
+					<td>
+						<a href="#">Scheda opera</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="img/Vocazione_di_san_Matteo_mini.jpg" class="rounded mx-auto d-block" alt="Vocazione di San Matteo">
+					</td>
+					<td><em>Vocazione di San Matteo</em></td>
+					<td>1599/1600</td>
+					<td>Roma, Chiesa di San Luigi dei Francesi, Cappella Contarelli</td>
+					<td>
+						<a href="item1.html">Scheda opera</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="img/Martirio_San_Matteo_mini.jpg" class="rounded mx-auto d-block" alt="Martirio di San Matteo">
+					</td>
+					<td><em>Martirio di San Matteo</em></td>
+					<td>1599/1600</td>
+					<td>Roma, Chiesa di San Luigi dei Francesi, Cappella Contarelli</td>
+					<td>
+						<a href="#">Scheda opera</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="img/Crocifissione_San_Pietro_mini.jpg" class="rounded mx-auto d-block" alt="Crocifissione di San Pietro">
+					</td>
+					<td>1600/1601</td>
+					<td>Roma, Chiesa di Santa Maria del Popolo, Cappella Cerasi</td>
+					<td>
+						<a href="#">Scheda opera</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="img/Conversione_di_San_Paolo_mini.jpg" class="rounded mx-auto d-block" alt="Conversione di San Paolo">
+					</td>
+					<td><em>Conversione di San Paolo</em></td>
+					<td>1600/1601</td>
+					<td>Roma, Chiesa di Santa Maria del Popolo, Cappella Cerasi</td>
+					<td>
+						<a href="#">Scheda opera</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+			    		<img src="img/Incredulità_di_San_Tommaso_mini.jpg" class="rounded mx-auto d-block" alt="Incredulità di San Tommaso">
+					</td>
+					<td><em>Incredulità di San Tommaso</em></td>
+					<td>1602 ca</td>
+					<td>Potsdam, Castello di Sanssouci, Bildergalerie</td>
+					<td>
+						<a href="#">Scheda opera</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="img/Deposizione_di_Cristo_mini.jpg" class="rounded mx-auto d-block" alt="Deposizione di Cristo">
+					</td>
+					<td><em>Deposizione</em></td>
+					<td>1600/1604 ca.</td>
+					<td>Roma, Musei Vaticani, Pinacoteca</td>
+					<td>
+						<a href="#">Scheda opera</a>
+					</td>
+				</tr>
+			</tbody>
+			</table>
+		</div>
+	</section>
+	<footer class="sfondofooter text-center text-lg-start">
+		<div class="container p-4">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+					<h5 class="text-center py-2"> Può esserti utile: </h5>
+					<ul class="list-unstyled mb-0">
+						<li>
+							<a href="#!" class="text-dark">Contatti</a>
 						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-								Esplora il catalogo
-							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="immagini_digitalizzate.html">Immagini digitalizzate</a></li>
-								<li><a class="dropdown-item" href="letteratura_critica.html">Letteratura critica</a></li>
-							</ul>
+						<li>
+							<a href="#!" class="text-dark">Credits</a>
+						</li>
+						<li>
+							<a href="#!" class="text-dark">Licenze</a>
+						</li>
+						<li>
+							<form action="/action_page.php">
+								<div class="mb-3 mt-3">
+									<label for="comment">Lascia un commento</label>
+									<textarea class="form-control" rows="4" id="comment" name="text"></textarea>
+								</div>
+								<button type="submit" class="btn btn-dark">Invia</button>
+							</form>
 						</li>
 					</ul>
-					<form class="d-flex">
-						<input class="form-control me-2" type="text" aria-label="Search">
-						<button class="btn btn-outline-dark" type="submit">Cerca</button>
-					</form>
+				</div>	
+				<div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+					<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ze8lM1z0j60?start=75" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
-		</nav>
-		<div>
-			<h2 class="text-uppercase py-3 ps-3">La permanenza romana</h2>
 		</div>
-		<section>
-			<div class="container mt-3">
-  				<ul class="list-group">
-    				<li class="list-group-item">
-    					<figure class="figure-img img-fluid rounded">
-    						<img src="img/Canestra_di_frutta_mini.jpg">
-    						<a href=""></a>
-    					</figure>
-    					<div class="data">
-    						<h4>Canestra di frutta</h4>
-    						<p><em>1596 ca</em></p>
-    						</br>
-    						<p>Milano, Pinacoteca Ambrosiana</p>
-    					</div>
-    				</li>
-    				<li class="list-group-item">
-    					<figure class="figure-img img-fluid rounded">
-    						<img src="img/Martirio_San_Matteo_mini.jpg">
-    						<a href=""></a>
-    					</figure>
-    					<div class="data">
-    						<h4>Martirio di San Matteo</h4>
-    						<p><em>1599/1600</em></p>
-    						</br>
-    						<p>Roma, Chiesa di San Luigi dei francesi, Cappella Contarelli</p>
-    					</div>
-    				</li>
-  				</ul>
-			</div>
-		</section>
-		<footer class="sfondofooter text-center text-lg-start">
-			<div class="container p-4">
-				<div class="row">
-					<div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-						<h5 class="text-center py-2"> Può esserti utile: </h5>
-						<ul class="list-unstyled mb-0">
-				          <li>
-				            <a href="#!" class="text-dark"><em>Caravaggio Research:</em> centro di studio, diagnostica e ricerca storico artistica</a>
-				          </li>
-				          <li>
-				            <a href="#!" class="text-dark">Credits</a>
-				          </li>
-				          <li>
-				            <a href="#!" class="text-dark">Licenze</a>
-				          </li>
-				        </ul>
-					</div>	
-					<div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-						<img src="img/Ottavio_Leoni_Caravaggio.jpg" class="rounded mx-auto d-block" alt="Ritratto di Caravaggio">
-					</div>
-				</div>
-			</div>
-			<div class="text-center p-3 bg-light">
-				© 2022 Copyright: Sofia Janin
-			</div>
-		</footer>
-		<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-	</body>
+		<div class="text-center p-3 bg-light">
+			© 2022 Copyright: Sofia Janin
+		</div>
+	</footer>
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
