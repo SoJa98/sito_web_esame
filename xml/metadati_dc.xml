@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collezione xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="Opere_di_Caravaggio">
+	<item n="1" xml:id="item1">
+		<genere>Pittura</genere>
+		<titolo-item>Immagine della Vocazione di San Matteo</titolo-item>
+		<immagine riferimento="img/Vocazione_di_san_Matteo_tagliata.jpg"/>
+		<metadati>
+			<dc:title>Vocazione di San Matteo</dc:title>
+			<dc:creator>Merisi, Michelangelo</dc:creator>
+			<dc:date>1599/1600</dc:date>
+			<dc:subject n="1">Pittura sacra</dc:subject>
+			<dc:subject n="2">Pittura italiana del Cinquecento</dc:subject>
+			<dc:subject n="3">Pittura italiana del Seicento</dc:subject>
+			<dc:description>Immagine digitale di un'olio su tela di mano di Caravaggio; l'artista ha scelto di rappresentare il momento in cui Cristo si presenta dinanzi a Matteo per chiamarlo all'apostolato. </dc:description>
+			</dc:publisher>
+			<dc:type>Image</dc:type>
+			<dc:format tipo="analogico">322 x 340 cm</dc:format>
+			<dc:format tipo="digitale">image/jpg</dc:format>
+			<dc:identifier tipo="permalink">https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200705423</dc:identifier>
+			<dc:identifier tipo="permalink">http://viaf.org/viaf/211223677</dc:identifier>
+			<dc:identifier tipo="permalink">https://www.europeana.eu/it/item/199/item_PNZ5A2K4RIUVZDWOA6SONM7T6RC4M33G</dc:identifier>
+			<dc:language>it</dc:language>
+			<dc:coverage>Rome, IT</dc:coverage>
+			</dc:rights>
+		</metadati>
+	</item>
+</collezione>
