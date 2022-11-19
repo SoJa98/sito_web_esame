@@ -1,14 +1,16 @@
-body {;
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+body {
 	font-family: 'PT Sans Narrow', sans-serif;
 }
-.sfondoheader {
-  background-color: rgba(230, 119, 85, 0.6);
-}
+header {
+	background-image: url('../img/sfondoheader.jpg');
+	background-size: 100% 100%;
+	}
 .sfondodida {
 	background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */;
 }
 .sfondofooter {
-	background-color: rgba(230, 119, 85, 0.6);
+	background-color: rgba(73, 76, 77, 0.25);
 }
 .zoom {      
 -webkit-transition: all 0.35s ease-in-out;    
