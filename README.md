@@ -1,1 +1,3 @@
 # Sito_Web_Esame
+Caravaggio. Una raccolta delle sue opere e della relativa letteratura critica è un progetto patrocinato dall'Università di Bologna, CRR-MM (Centro di Risorse per la Ricerca - Multimediale). L'idea alla base della creazione del sito coincide con la volontà di raccogliere in un'unica piattaforma online le immagini digitalizzate delle opere dell'artista e la produzione scritta di mano dei critici di storia dell'arte. Oltre ad essere un ambiente unificato per la conservazione, questo progetto risponde a esigenze di valorizzazione perché grazie, alla fruizione dei contenuti qui presenti, si intende agevolare il lavoro dei ricercatori impegnati a rinnovare costantemente gli studi su Caravaggio.
+Vai al sito: https://soja98.github.io/sito_web_esame/
