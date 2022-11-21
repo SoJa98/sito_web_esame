@@ -1,0 +1,67 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Vocazione di san Matteo</title>
+				<author ref="#VS">Sgarbi, Vittorio (1952-)</author>
+				<respStmt>
+					<resp>Codifica TEI</resp>
+					<name xml:id="SJ">Sofia Janin</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>Questo testo è liberamente consultabile e scaricabile</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Scheda tecnica dell'opera di Michelangelo Merisi tratta dall'omonima monografia redatta da Vittorio Sgarbi, (Caravaggio, Skira, 2005, pp.102-103)</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div type="titolo">Vocazione di san Matteo</div>
+			<div type="intestazione">
+				<p type="tecnica e supporto">Olio su tela</p>
+				<p type="misure">322 x 340 cm</p>
+				<p type="luogo">Roma, Chiesa di san Luigi dei Francesi</p>
+			</div>
+		</front>
+		<body>
+			<p>Come in un fotogramma di un episodio di cronaca, il
+				<name type="persona">san Matteo</name>
+				del 
+				<name type="persona">Caravaggio</name>
+				viene distolto dalla luce della salvezza divina, nel mentre è intento a giocare con i suoi compagni una partita d’azzardo, probabilmente con i dadi.
+				<q who="Longhi, Roberto">“Se poi il Caravaggio potesse sentirsi sorretto anche dall’ambiguità con cui il vocabolo ‘telonio’, cioè la stanza della gabella è stato talora usato per stanza da gioco è decisione da rimettere a chi sappia ricostruire sicuramente la storia di quell’uso linguistico. E dell’indagine varrebbe la spesa”. </q>
+				(Longhi 1968, p. 24) In realtà la Vocazione di san Matteo accanto alle altre due tele nella 
+				<name type="luogo">cappella Contarelli</name>
+				eseguite a Roma dal Caravaggio risultano essere fra le opere più documentate della storia dell’arte, ma i tanti documenti vertono sostanzialmente sull’annosa questione della contesa a sfondo finanziario, tra i Crescenzi, esecutori testamentari del
+				<name type="persona">cardinale Cointrel,</name>
+				fondatore della cappella e della congregazione di San Luigi. Dai documenti risulta che probabilmente i Crescenzi erano scarsamente interessati al completamento della decorazione della cappella rispetto invece all’interesse reale della congregazione. Questa considerazione nasce anche dalla lettura del contratto, datato
+				<date value="23-07-1599">23 luglio 1599,</date>
+				rinvenuto dal 
+				<name type="persona">Röttgen</name>
+				<date value="1964">nel 1964</date>
+				(pp. 49-50), in cui il Caravaggio si impegna a dipingere i due quadri laterali della cappella.
+				<q who="Macioce, Stefania">“Il pittore terminerà i due quadri entro l’anno, è scritto nel documento o li farà terminare ove rimanessero incompiuti per un totale di 400 scudi, di cui cinquanta ricevuti in anticipo”. </q>
+				(Macioce 2003, p. 77). Per la prima volta, rispetto alla mole di documenti che narrano la storia della Contarelli, compare il nome del Merisi, ma il pittore sembrerebbe essere quasi imposto ai Crescenzi, da un non meglio identificato
+				<name type="persona">padre Berlinghiero</name>
+				della Fabbrica di San Pietro. I più recenti studi di
+				<name type="persona">Pupillo</name>
+				(1996, pp. 148-165) e ulteriori rinvenimenti documentari confermano come la trama dei rapporti esistenziali fra Contarelli e Crescenzi sia così fitta, da dover dubitare di una eventuale querelle in merito anche alla scelta di un artista, quale il Caravaggio.
+			</p>
+			<p>Il tema svolto è quello che il Contarelli aveva già stabilito per il
+				<name type="persona">Muziano</name>
+				e le indicazioni erano quelle di rappresentare
+				<name type="persona">Gesù</name>
+				che passando per la strada coi discepoli chiama all’apostolato il gabelliere Matteo, ma il Caravaggio, con il suo modo di dipingere, rende la scena assolutamente nuova e per alcuni aspetti enigmatica. Il Cristo entra nella scena come se misteriosamente si fosse aperto un varco, con accanto
+				<name type="persona">Pietro</name>
+				che sicuramente allude alla Chiesa e ripete il gesto di indicare Matteo. Le radiografie hanno anche mostrato come la figura di Pietro risulti aggiunta, quasi a voler rafforzare il tema della Grazia. Oltre all’analisi stilistica sui singoli personaggi che popolano la scena, protagonista assoluta è ancora una volta la luce che modella le forme e gli spazi, per Marangoni (1922, p.794), e il suo uso simbolico, di “matrice agostiniana”, per 
+				<name type="persona">Calvesi</name>
+				(1990, p. 311).
+			</p>
+		</body>
+		<group></group>
+		<back></back>
+	</text>
+</TEI>
